@@ -95,7 +95,7 @@ set -e  # fail hard on any error
 initialize
 build_openssl
 build_librtmp
-build_ffmpeg
+build_libx264
 build_ffmpeg
 
 echo "Look in ${dist_root} for libraries and executables."
